@@ -1,4 +1,11 @@
 <?php
+/*
+    Version: 1.2.8
+    Author: HKLCF
+    Copyright: HKLCF
+    Last Modified: 29/04/2020
+*/
+
 $videoid = isset($_GET['videoid']) ? $_GET['videoid'] : null;
 $authorization = 'SAPISIDHASH 0000000000_a0a000a0000a0a00a0aaa00000aa0aaaaaaaaaaa'; // authorization header
 $user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36'; // user_agent
